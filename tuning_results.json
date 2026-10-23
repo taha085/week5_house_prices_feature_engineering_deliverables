@@ -1,0 +1,29 @@
+{
+  "Tuned Random Forest": {
+    "best_params": {
+      "regressor__model__bootstrap": true,
+      "regressor__model__max_depth": 24,
+      "regressor__model__max_features": 0.6428245137802029,
+      "regressor__model__min_samples_leaf": 2,
+      "regressor__model__min_samples_split": 5,
+      "regressor__model__n_estimators": 288
+    },
+    "best_cv_rmse": 29557.784614964872,
+    "search_seconds": 193.18104409900002,
+    "n_iter": 10
+  },
+  "Tuned XGBoost": {
+    "best_params": {
+      "regressor__model__colsample_bytree": 0.7443752583889521,
+      "regressor__model__learning_rate": 0.07242124523564754,
+      "regressor__model__max_depth": 4,
+      "regressor__model__min_child_weight": 3,
+      "regressor__model__n_estimators": 816,
+      "regressor__model__reg_lambda": 8.365847086454306,
+      "regressor__model__subsample": 0.813367012636793
+    },
+    "best_cv_rmse": 26066.859375,
+    "search_seconds": 37.48024619700004,
+    "n_iter": 10
+  }
+}

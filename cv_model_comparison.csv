@@ -1,0 +1,5 @@
+Model,Mean CV RMSE,CV RMSE SD,Mean CV R²,Training/tuning time (sec),Note
+Tuned XGBoost,26066.859375,3483.602057429501,0.8855879187583924,37.48024619700004,"RandomizedSearchCV; 10 draws, 5-fold CV."
+Tuned Random Forest,29557.784614964872,5413.058499358843,0.8512394080898329,193.18104409900002,"RandomizedSearchCV; 10 draws, 5-fold CV."
+Task 3 log-target Linear Regression baseline,48891.24034155116,33759.731872221186,0.4826632013105612,0.43570793499998217,"Task 3 reference; log target, no engineered features."
+Engineered log-target Linear Regression,49049.30718077615,34040.79949866312,0.47809335204538633,0.26794911399997545,Checks whether domain features help a simple model.
